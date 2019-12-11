@@ -1,0 +1,162 @@
+/*@import'https://fonts.googleapis.com/css?family=Open+Sans&display=swap';*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+  /* background: black;*/
+   font-family: 'Open Sans', sans-serif;
+    
+    
+    
+}
+
+.logo{
+    background: url('../images/sprites.png');
+    width: 10%;
+    float: left;
+    height: 50px;
+    background-position: 10px 50px;
+    
+}
+/*logo images*/
+
+.leftmenu{
+    margin: 0px 12px 0px 30px;
+    width: 42%;
+    float: left;
+    /*padding: 13px;*/
+}
+
+.rightmenu{
+    
+    width: 42%;
+    float: right;
+    text-align: right;
+    /*padding: 13px;*/
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.leftmenu>ul>li>a,
+.rightmenu>ul>li>a
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.leftmenu>ul>li,
+.rightmenu>ul>li
+{
+    display: inline-block
+}
+#headerblock{
+    /*padding:13px;*/
+    z-index: 1;
+    position: relative;
+}
+/*.rightmenu>ul>li:nth-child(4){
+    background: red;
+}
+.rightmenu>ul>li:last-child(4){
+padding: 30px;
+}*/
+.last a {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 4px 20px !important;
+    background: 0 0;
+}
+.rightmenu>ul>li:nth-child(2)::after {
+content: '<';
+display: inline-block;
+transform: rotate(-90deg);
+color: white;
+
+}
+
+/*slider section css here*/
+#slidersection{
+    color: white;
+    background: url('../images/lamb.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 360px;
+    text-align: center;
+   /* position: absolute;*/
+    top: 0;
+padding-top: 150px;
+}
+
+#slidersection>footer>form>input{
+    padding: 22px;
+    width: 60%;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 0;
+}
+.searchicon{
+    position: relative;
+}
+.searchicon i{
+    position: absolute;
+    color: #1119;
+left: 16px;
+top: 3px;
+font-size: 20px;
+z-index: 1;
+}
+#slidersection>footer>form>input::placeholder{
+    padding: 0px 30px;
+    font-size: 20px;
+position: relative;
+top: 5px;
+}
+.imagestext{
+    position: relative;
+
+}
+.imagestext>select{
+position: absolute;
+right: 0;
+top: 5px;
+border: none;
+
+}
+.imagestext>select>option{
+    padding: 10px !important;
+display: inline-block !important;
+}
+.image1{
+    width: 31.5%;
+    float: left;
+    margin: 0 7px;
+}
+.image2{
+    width: 31.5%;
+    float: left;
+    margin: 0 7px;
+}
+.image3{
+    width: 16%;
+    float: left;
+    margin: 0 7px;
+}
+.image4{
+    width: 16%;
+    float: left;
+    margin: 0 7px;
+}
+#imagessection img {
+    width: 100%;
+    height: 300px;
+}
+#imagessection{
+    width: 97%;
+    margin: 0 auto;
+}
